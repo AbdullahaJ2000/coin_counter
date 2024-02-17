@@ -15,13 +15,25 @@ To use the script, follow these steps:
 2. Navigate to the directory:
 
     ```bash
-    cd your_repository
+    cd coin_counter
     ```
 
-3. Run the script:
+3. Run the script for image:
 
     ```bash
-    python script_name.py --img path/to/input/image --name   path/to/output/image --type input_type
+    python .\inf1.py --img path/to/input/image --name   path/to/output/image --type i
+    ```
+
+4. Run the script for video:
+
+    ```bash
+    python .\inf1.py --img path/to/input/video --type v
+    ```
+
+5. Run the script for cam:
+
+    ```bash
+    python .\inf1.py --type c
     ```
 
     Replace `path/to/input/image` with the path to the input image or video. By default, the input image is set to "test1.jpeg" and the output image name is set to "predict". The `input_type` can be specified as "i" for image, "v" for video, or "c" for a live camera feed.
@@ -38,11 +50,12 @@ This function adds a text overlay indicating the frames per second (FPS) on the 
 
 ## Requirements
 
-- Python 3.x
+- Python 3.8>=
 - OpenCV
 - argparse
 
 Install the dependencies using pip:
 
 ```bash
-pip install opencv-python-headless argparse
+pip install -r 
+```
