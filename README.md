@@ -27,7 +27,7 @@ To use the script, follow these steps:
     Replace `path/to/input/image` with the path to the input image or video. By default, the input image is set to "test1.jpeg" and the output image name is set to "predict". The `input_type` can be specified as "i" for image, "v" for video, or "c" for a live camera feed.
 
 # Additional Functions
-##infr(prediction)
+## infr(prediction)
 This function processes the predictions made by the model. It extracts class labels, bounding box coordinates, confidence scores, and calculates the total amount based on the detected objects.
 
 ## draw_boxes(image, boxes, confidences, class_labels, tot)
