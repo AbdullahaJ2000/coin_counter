@@ -9,7 +9,7 @@ To use the script, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your_username/your_repository.git
+    git clone https://github.com/AbdullahaJ2000/coin_counter.git
     ```
 
 2. Navigate to the directory:
