@@ -57,5 +57,5 @@ This function adds a text overlay indicating the frames per second (FPS) on the 
 Install the dependencies using pip:
 
 ```bash
-pip install -r 
+pip install -r requirements.txt 
 ```
