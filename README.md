@@ -1,6 +1,6 @@
 # Bounding Box Drawing Tool
 
-This script allows you to draw bounding boxes on images, videos, or live camera feeds using a pre-trained model. It supports various input sources and outputs annotated frames with bounding boxes around detected objects.
+This script allows you to count and draw bounding boxes around coins in images, videos, or live camera feeds using a pre-trained model. It supports various input sources and outputs annotated frames with bounding boxes around detected coins.
 
 ## Usage
 
