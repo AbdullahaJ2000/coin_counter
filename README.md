@@ -26,14 +26,14 @@ To use the script, follow these steps:
 
     Replace `path/to/input/image` with the path to the input image or video. By default, the input image is set to "test1.jpeg" and the output image name is set to "predict". The `input_type` can be specified as "i" for image, "v" for video, or "c" for a live camera feed.
 
-#Additional Functions
+# Additional Functions
 ##infr(prediction)
 This function processes the predictions made by the model. It extracts class labels, bounding box coordinates, confidence scores, and calculates the total amount based on the detected objects.
 
-##draw_boxes(image, boxes, confidences, class_labels, tot)
+## draw_boxes(image, boxes, confidences, class_labels, tot)
 This function draws bounding boxes around detected objects on the input image. It also annotates each bounding box with the class label and confidence score. Additionally, it displays the total amount calculated by the infr() function.
 
-##draw_fps(image, fps)
+## draw_fps(image, fps)
 This function adds a text overlay indicating the frames per second (FPS) on the annotated image.
 
 ## Requirements
